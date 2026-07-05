@@ -24,16 +24,31 @@ themeToggle.addEventListener("click", () => {
 });
 
 menuToggle.addEventListener("click", () => {
-  const isOpen = navLinks.classList.toggle("is-open");
-  menuToggle.setAttribute("aria-expanded", String(isOpen));
-  menuToggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
+  setMenuState(!navLinks.classList.contains("is-open"));
 });
 
 navLinks.addEventListener("click", (event) => {
   if (event.target.closest("a")) {
-    navLinks.classList.remove("is-open");
-    menuToggle.setAttribute("aria-expanded", "false");
-    menuToggle.setAttribute("aria-label", "Open navigation");
+    setMenuState(false);
+  }
+});
+
+document.addEventListener("click", (event) => {
+  if (navLinks.classList.contains("is-open") && !event.target.closest(".nav-shell")) {
+    setMenuState(false);
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    setMenuState(false);
+    menuToggle.focus();
+  }
+});
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 820) {
+    setMenuState(false);
   }
 });
 
@@ -47,4 +62,11 @@ function updateThemeLabel() {
   const isDark = root.dataset.theme === "dark";
   themeLabel.textContent = isDark ? "Light" : "Dark";
   themeToggle.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
+}
+
+function setMenuState(isOpen) {
+  navLinks.classList.toggle("is-open", isOpen);
+  document.body.classList.toggle("menu-open", isOpen);
+  menuToggle.setAttribute("aria-expanded", String(isOpen));
+  menuToggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
 }
