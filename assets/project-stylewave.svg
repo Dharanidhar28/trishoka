@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">StyleWave fashion launch</title>
+  <desc id="desc">A sample fashion campaign landing page with social media panels.</desc>
+  <rect width="640" height="480" fill="#101828"/>
+  <rect x="46" y="48" width="548" height="384" fill="#ffffff"/>
+  <rect x="82" y="82" width="218" height="312" fill="#00a6fb"/>
+  <path d="M191 122c33 0 60 27 60 60v172H131V182c0-33 27-60 60-60Z" fill="#101828"/>
+  <circle cx="191" cy="132" r="34" fill="#ffffff"/>
+  <rect x="330" y="92" width="194" height="28" fill="#101828"/>
+  <rect x="330" y="142" width="144" height="16" fill="#101828"/>
+  <rect x="330" y="176" width="184" height="16" fill="#101828"/>
+  <rect x="330" y="226" width="206" height="92" fill="#101828"/>
+  <circle cx="370" cy="272" r="24" fill="#00a6fb"/>
+  <rect x="414" y="250" width="84" height="14" fill="#ffffff"/>
+  <rect x="414" y="280" width="56" height="12" fill="#ffffff"/>
+  <rect x="330" y="344" width="92" height="28" fill="#00a6fb"/>
+  <rect x="442" y="344" width="94" height="28" fill="#101828"/>
+</svg>

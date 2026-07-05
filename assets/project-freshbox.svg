@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">FreshBox online grocery</title>
+  <desc id="desc">A sample online grocery interface with product tiles and delivery route graphic.</desc>
+  <rect width="640" height="480" fill="#ffffff"/>
+  <rect x="40" y="44" width="560" height="392" fill="#101828"/>
+  <rect x="74" y="78" width="492" height="74" fill="#ffffff"/>
+  <rect x="102" y="106" width="178" height="18" fill="#101828"/>
+  <rect x="404" y="98" width="112" height="34" fill="#00a6fb"/>
+  <rect x="74" y="184" width="146" height="178" fill="#ffffff"/>
+  <circle cx="147" cy="242" r="42" fill="#00a6fb"/>
+  <rect x="106" y="316" width="82" height="14" fill="#101828"/>
+  <rect x="246" y="184" width="146" height="178" fill="#ffffff"/>
+  <rect x="284" y="210" width="70" height="70" rx="12" fill="#00a6fb"/>
+  <rect x="278" y="316" width="86" height="14" fill="#101828"/>
+  <rect x="418" y="184" width="148" height="178" fill="#ffffff"/>
+  <path d="M458 306c-18-46 6-92 36-92s54 46 36 92h-72Z" fill="#00a6fb"/>
+  <rect x="450" y="316" width="84" height="14" fill="#101828"/>
+  <path d="M122 392c85-34 154-34 238 0s126 34 158 0" fill="none" stroke="#00a6fb" stroke-width="12" stroke-linecap="round"/>
+</svg>

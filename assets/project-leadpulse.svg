@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">LeadPulse campaign hub</title>
+  <desc id="desc">A sample marketing analytics dashboard with funnel and campaign cards.</desc>
+  <rect width="640" height="480" fill="#101828"/>
+  <rect x="42" y="42" width="556" height="396" fill="#ffffff"/>
+  <rect x="76" y="76" width="488" height="48" fill="#101828"/>
+  <rect x="100" y="94" width="118" height="12" fill="#00a6fb"/>
+  <rect x="76" y="158" width="166" height="214" fill="#101828"/>
+  <path d="M112 194h94l-24 48h-46l-24-48Z" fill="#00a6fb"/>
+  <path d="M126 260h66l-18 42h-30l-18-42Z" fill="#ffffff"/>
+  <rect x="276" y="158" width="288" height="82" fill="#101828"/>
+  <rect x="304" y="186" width="62" height="24" fill="#00a6fb"/>
+  <rect x="388" y="184" width="134" height="14" fill="#ffffff"/>
+  <rect x="388" y="210" width="94" height="12" fill="#ffffff"/>
+  <rect x="276" y="272" width="128" height="100" fill="#101828"/>
+  <rect x="306" y="326" width="22" height="26" fill="#00a6fb"/>
+  <rect x="344" y="298" width="22" height="54" fill="#00a6fb"/>
+  <rect x="276" y="392" width="288" height="14" fill="#00a6fb"/>
+  <rect x="436" y="272" width="128" height="100" fill="#101828"/>
+  <circle cx="500" cy="322" r="32" fill="#00a6fb"/>
+</svg>
