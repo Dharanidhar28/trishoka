@@ -212,39 +212,6 @@ textarea {
   background-size: 62px 62px;
 }
 
-.grid-map {
-  position: absolute;
-  inset: 15% 7% auto auto;
-  width: min(520px, 70vw);
-  aspect-ratio: 1.3;
-  border: 1px solid color-mix(in srgb, var(--accent) 58%, transparent);
-  transform: skewY(-7deg);
-}
-
-.signal {
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  background: var(--accent);
-  border-radius: 50%;
-  box-shadow: 0 0 0 10px color-mix(in srgb, var(--accent) 16%, transparent);
-}
-
-.signal-one {
-  top: 25%;
-  right: 29%;
-}
-
-.signal-two {
-  top: 48%;
-  right: 12%;
-}
-
-.signal-three {
-  top: 65%;
-  right: 37%;
-}
-
 .hero-inner {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(320px, .72fr);
